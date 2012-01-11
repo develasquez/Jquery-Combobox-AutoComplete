@@ -122,7 +122,7 @@
                     }
                 }
             })
-            .addClass("ui-widget ui-widget-content ui-corner-left inputCombo " + clases)
+            .addClass("ui-widget ui-widget-content ui-corner-left ui-input-combo " + clases)
             .attr("placeholder", "Seleccione...")
             if (self.options.required != null) {
                 input.attr("required", "required");
@@ -170,7 +170,7 @@
                 text: false
             })
             .removeClass("ui-corner-all")
-            .addClass("ui-corner-right ui-button-icon btnCombo")
+            .addClass("ui-corner-right ui-button-icon ui-btn-combo")
             .click(function () {
                  debugger;
                 if (input.autocomplete("widget").is(":visible")) {

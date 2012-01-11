@@ -1,5 +1,5 @@
 .ui-button { margin-left: -1px; }
 .ui-button-icon-only .ui-button-text { padding: 0.35em; } 
 .ui-autocomplete-input {padding: 0.2em 0 0.3em 0.5em;}
-.btnCombo{font-size: 0.8em !important;}
-.inputCombo{margin: 0px 0em 1em 0 !important;}
+.ui-btn-combo{font-size: 0.8em !important;}
+.ui-input-combo{margin: 0px 0em 1em 0 !important;}
